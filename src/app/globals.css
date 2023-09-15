@@ -1,0 +1,64 @@
+/* Add your custom styles */
+.table-container {
+  margin: 20px;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.custom-table th,
+.custom-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.custom-table th {
+  background-color: #f2f2f2;
+}
+
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pagination-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.pagination-button:hover {
+  background-color: #0056b3;
+}
+
+.pagination-button.active {
+  background-color: #0056b3;
+}
+
+.search {
+  padding: 16px 32px;
+  border-radius: 5px;
+  text-align: left;
+  margin-bottom: 10px;
+  border: 1px solid salmon;
+  background-color: white;
+  margin-right: 50px;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: left;
+  justify-content: right;
+  width: 100vw;
+  height: 60px;
+
+  background-color: #fff;
+}
